@@ -22,6 +22,7 @@
 
 /* Begin PBXBuildFile section */
 		900C8ECB23BA63D800F21579 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900C8ECA23BA63D800F21579 /* UIView+Layout.swift */; };
+		90A4E60623CE4E16000AED35 /* EmbeddedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A4E60523CE4E16000AED35 /* EmbeddedView.swift */; };
 		90EFF1E223C40C9E00D8D3CE /* UIImage+Sizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EFF1E123C40C9E00D8D3CE /* UIImage+Sizing.swift */; };
 		OBJ_23 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Core.swift */; };
 		OBJ_30 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
@@ -49,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		900C8ECA23BA63D800F21579 /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		90A4E60523CE4E16000AED35 /* EmbeddedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbeddedView.swift; sourceTree = "<group>"; };
 		90EFF1E123C40C9E00D8D3CE /* UIImage+Sizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Sizing.swift"; sourceTree = "<group>"; };
 		"Core::Core::Product" /* Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Core::CoreTests::Product" /* CoreTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = CoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +132,7 @@
 				OBJ_9 /* Core.swift */,
 				900C8ECA23BA63D800F21579 /* UIView+Layout.swift */,
 				90EFF1E123C40C9E00D8D3CE /* UIImage+Sizing.swift */,
+				90A4E60523CE4E16000AED35 /* EmbeddedView.swift */,
 			);
 			name = Core;
 			path = Sources/Core;
@@ -221,6 +224,7 @@
 			files = (
 				900C8ECB23BA63D800F21579 /* UIView+Layout.swift in Sources */,
 				90EFF1E223C40C9E00D8D3CE /* UIImage+Sizing.swift in Sources */,
+				90A4E60623CE4E16000AED35 /* EmbeddedView.swift in Sources */,
 				OBJ_23 /* Core.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
