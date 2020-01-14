@@ -8,30 +8,30 @@
 
 import UIKit
 
-class EmbeddedView: UIView {
+open class EmbeddedView: UIView {
 
-    var nibName: String? = nil
+    open var nibName: String? = nil
 
-    convenience init() {
+    public convenience init() {
         self.init(frame: .zero)
     }
 
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         _setup()
     }
 
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         _setup()
     }
 
-    override func awakeFromNib() {
+    open override func awakeFromNib() {
         super.awakeFromNib()
         loadViewFromNib()
     }
 
-    func loadViewFromNib() {
+    open func loadViewFromNib() {
         if let nibName = nibName {
             let view = loadViewFromNib(named: nibName, owner: self)
             addSubview(view)
@@ -39,7 +39,7 @@ class EmbeddedView: UIView {
         }
     }
 
-    func setup() { }
+    open func setup() { }
 
 }
 
